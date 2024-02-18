@@ -54,4 +54,15 @@ class MainActivity2 : AppCompatActivity() {
             }
         }
     }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        val cmToM = false
+        outState.putBoolean("cmToM", cmToM)
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        var cmToM = savedInstanceState.getBoolean("cmToM")
+        super.onRestoreInstanceState(savedInstanceState)
+    }
 }
