@@ -13,9 +13,10 @@
     // andorid Up!!!!!!!
     // android Up!!!!!!!!
     // android Up!!!!!!!!!
+    // android Up!!!!!!!!!!
 
     <TextView
-        android:id="@+id/equationTextView"
+        android:id="@+id/equationT∂∂extView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:gravity="end"
